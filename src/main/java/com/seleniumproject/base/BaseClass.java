@@ -90,7 +90,7 @@ public class BaseClass {
 
 	@AfterMethod
 	public void tearDown() {
-		staticwait (5);
+		staticwait (10);
 		if (driver != null) {
 			try {
 				driver.quit();
