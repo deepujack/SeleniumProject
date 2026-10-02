@@ -7,8 +7,8 @@
         <methods>
           <include name="LoadConfig"/>
           <include name="setup"/>
+          <include name="setupPages"/>
           <include name="verifyValidLoginTest"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.seleniumproject.test.SeleniumLoginPageTest -->
     </classes>

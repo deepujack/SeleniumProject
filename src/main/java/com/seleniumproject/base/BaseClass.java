@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -87,19 +88,20 @@ public class BaseClass {
 
 	}
 
-//	@AfterMethod
-//	public void tearDown() {
-//		if (driver != null) {
-//			try {
-//				driver.quit();
-//			} catch (Exception e) {
-//				System.out.println("driver failed to quit:" + e.getMessage());
-//			}
-//		}
-//		System.out.println("Webdriver instance is closed");
-//		driver =null;
-//		actionDriver =null;
-//	}
+	@AfterMethod
+	public void tearDown() {
+		staticwait (5);
+		if (driver != null) {
+			try {
+				driver.quit();
+			} catch (Exception e) {
+				System.out.println("driver failed to quit:" + e.getMessage());
+			}
+		}
+		System.out.println("Webdriver instance is closed");
+		driver =null;
+		actionDriver =null;
+	}
 
 
 	/*
@@ -149,5 +151,9 @@ public class BaseClass {
 	public void staticwait(int seconds) {
 		LockSupport.parkNanos(TimeUnit.SECONDS.toNanos(seconds));
 	}
-
+	
+	public void scrollByPixels(int pixels) {
+        ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, arguments[0]);", pixels);
+    }
+	
 }

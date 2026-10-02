@@ -2,27 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-23T12:48:54 IST" name="Default suite" finished-at="2026-07-23T12:49:05 IST" duration-ms="10575">
+  <suite started-at="2026-10-02T14:37:08 IST" name="Default suite" finished-at="2026-10-02T14:37:24 IST" duration-ms="15258">
     <groups>
     </groups>
-    <test started-at="2026-07-23T12:48:54 IST" name="Default test" finished-at="2026-07-23T12:49:05 IST" duration-ms="10575">
+    <test started-at="2026-10-02T14:37:08 IST" name="Default test" finished-at="2026-10-02T14:37:24 IST" duration-ms="15258">
       <class name="com.seleniumproject.test.SeleniumLoginPageTest">
-        <test-method is-config="true" signature="LoadConfig()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@28eaa59a]" started-at="2026-07-23T12:48:54 IST" name="LoadConfig" finished-at="2026-07-23T12:48:54 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="LoadConfig()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@3c407114]" started-at="2026-10-02T14:37:08 IST" name="LoadConfig" finished-at="2026-10-02T14:37:08 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@28eaa59a]" started-at="2026-07-23T12:48:54 IST" name="setup" finished-at="2026-07-23T12:49:02 IST" duration-ms="7607" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@3c407114]" started-at="2026-10-02T14:37:08 IST" name="setup" finished-at="2026-10-02T14:37:14 IST" duration-ms="5938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@28eaa59a]" started-at="2026-07-23T12:49:02 IST" name="setupPages" finished-at="2026-07-23T12:49:02 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@3c407114]" started-at="2026-10-02T14:37:14 IST" name="setupPages" finished-at="2026-10-02T14:37:14 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyValidLoginTest()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@28eaa59a]" started-at="2026-07-23T12:49:02 IST" name="verifyValidLoginTest" finished-at="2026-07-23T12:49:05 IST" duration-ms="2930" status="PASS">
+        <test-method signature="verifyValidLoginTest()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@3c407114]" started-at="2026-10-02T14:37:14 IST" name="verifyValidLoginTest" finished-at="2026-10-02T14:37:18 IST" duration-ms="3860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumproject.test.SeleniumLoginPageTest@3c407114]" started-at="2026-10-02T14:37:18 IST" name="tearDown" finished-at="2026-10-02T14:37:24 IST" duration-ms="5436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.seleniumproject.test.SeleniumLoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -14,7 +14,10 @@ public class SeleniumHomePageTest extends BaseClass {
 	public void setupPages () {
 		loginpage = new LoginPage(getDriver());
 		homepage = new Homepage (getDriver());
+		
 	}
+	
+	
 	
 
 	
